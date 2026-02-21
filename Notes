@@ -1,0 +1,94 @@
+class Main {
+   public static void  main( String[] args){
+       String input = "Harish";
+       String reverse=" ";
+       for (int i=input.length()-1;i>=0;i--){
+           reverse+=input.charAt(i);
+       }
+           System.out.println(reverse);
+       }
+   }  
+
+==============
+Testingteam@99 - git
+https://github.com/HarisKumar1999/SeleniumWebdriver.git
+
+https://github.com/HarisKumar1999/com.Ensure.project.git
+
+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
+
+https://github.com/HarisKumar1999/JavaBasic.git
+==================
+Jenkins: 160801c58ea54fc8af5c7961c6db6f7b
+jenkins password: ce311d4495f4490ab103a6a936d8273b
+Username :Testing123
+pass:Harish@123
+==========================
+0en weather key : d1f878e92eb7cd083787940791f2aa60
+==================================
+
+}
+ublic class CountTextOccurrences {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://your-webpage-url.com");
+
+        // Get the entire page text
+        String pageText = driver.findElement(By.tagName("body")).getText();
+
+        // Word to count
+        String word = "Barclays";
+        int count = 0;
+
+        // Split the text by space and count matches
+        String[] words = pageText.split("\\s+");
+        for (String w : words) {
+            if (w.equalsIgnoreCase(word)) {
+                count++;
+            }
+        }
+
+        System.out.println("The word '" + word + "' appears " + count + " times.");
+        driver.quit();
+    }
+============================================
+driver.get("https://paytm.com");
+WebElement name = driver.findElement(By.xpath("//*[text()='Ticket Booking']");
+Actions action = new Actions(driver);
+action.moveToElement(name);
+driver.findElement(By.xpath("//*[text()='Bus Tickets']").click;
+//Implicitwait
+WebElement place = driver.findElement(By.xpath("//*[@id='dwebSourceInput']).sendKeys("Banglore");
+place.sendKeys("Banglore");
+WebElement place1 = driver.findElement(By.xpath("//*[@id='dwebDestinationInput']).sendKeys("Banglore");
+place1.sendKeys("Hyderabad");
+driver.findElement(By.xpath(//*[@class='qLoV0']).click;
+
+List<WebElement> buslist = driver.findElements(by.xpath(" ");
+
+for(int i=0;i<(buslist.size();i++{
+buslist.get(i
+================================
+driver.get("");
+String parentwindow = driver.getWindowHandle();
+Set<String> allwindow = driver.getWindowHandles();
+for(String name : parentwindow);
+if(name.equalsto(allwindow);
+driver.switchTo().window(allwindow);
+=========================================
+List<WebElement> element = driver.find
+Select select = new Select(element);
+select.getOptions();
+
+
+Given : User is on the login page
+when : user enters valid Username and Password
+And : user clicks on Privacy policy checkbox
+Then:User should be redirected to Privacy policy
+when : user navigates back to login page
+Then : login page should be dispalyed
+
+
+
+
+
